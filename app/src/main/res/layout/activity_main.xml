@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!--Title-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:text="@string/alc_title"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="50dp"/>
+    <!--About ALC Button-->
+    <Button
+        android:id="@+id/about_alc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_alc"
+        android:layout_centerInParent="true"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:background="@drawable/button_background"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+    <!--My Profile Button-->
+    <Button
+        android:id="@+id/my_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:layout_below="@id/about_alc"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:background="@drawable/button_background"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+</RelativeLayout>

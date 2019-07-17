@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="alc_title">Welcome to ALC 4.0</string>
+    <string name="about_alc">About ALC</string>
+    <string name="profile">My profile</string>
+    <string name="user_name">Chukwudi Mezue</string>
+    <string name="android_track">Android</string>
+    <string name="track">Track</string>
+    <string name="country">Country</string>
+    <string name="country_nigeria">Nigeria</string>
+    <string name="email">Email</string>
+    <string name="email_address">ceejaymezue8@gmail.com</string>
+    <string name="phone">Phone</string>
+    <string name="phone_no">08156113481</string>
+    <string name="slack">Slack Username</string>
+    <string name="slack_username">mezue</string>
+</resources>
